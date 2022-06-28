@@ -1,0 +1,11 @@
+.hello{
+    color: rgb(0, 0, 255);
+    background-color: aquamarine;
+}
+.world{
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px; 
+}

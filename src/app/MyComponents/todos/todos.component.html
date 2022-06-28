@@ -1,0 +1,9 @@
+<ul *ngFor="let Hello of todos" >
+    <li>{{Hello.sno}}</li>
+    <li>{{Hello.title}}</li>
+    <li>{{Hello.desc}}</li>
+    <!-- <li *ngIf="Hello.active == true">Online</li>
+    <li *ngIf="Hello.active == false">Offline</li> -->
+
+    <li>{{Hello.active?'Online': 'Offline'}}</li>
+</ul>
