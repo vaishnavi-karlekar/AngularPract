@@ -13,6 +13,7 @@ import { NehruComponent } from './nehru/nehru.component';
 import { NanaComponent } from './nana/nana.component';
 import { RailwayComponent } from './railway/railway.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NehruComponent,
     NanaComponent,
     RailwayComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
